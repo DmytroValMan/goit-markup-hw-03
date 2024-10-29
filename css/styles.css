@@ -33,6 +33,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .link-logo {
@@ -161,22 +162,30 @@ img {
   color: #f4f4fd;
 }
 
+.container {
+  width: 1158px;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .container-header {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
   width: 1440px;
   height: 72px;
   padding: 24px 156px;
   justify-content: space-between;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
-.container-list .list {
+.header .list {
   display: flex;
   width: 261px;
   height: 24px;
-  justify-content: space-between;
-  margine: 0 auto;
+  gap: 40px;
+  margin: 0 auto;
 }
 
 .container-benefits .list {
@@ -190,10 +199,12 @@ img {
 .container-nav {
   display: flex;
   margin: 0 auto;
+  align-items: center;
 }
 
 .container-address .list {
   display: flex;
+  gap: 40px;
 }
 
 .link-address {
