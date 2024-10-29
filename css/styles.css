@@ -167,6 +167,7 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  padding: 24px 156px;
 }
 
 .header {
@@ -181,12 +182,18 @@ img {
   margin: 0 auto;
 }
 
-.container-benefits .list {
+.section-benefits .container .list {
   display: flex;
-  width: 1128px;
-  height: 104px;
   margin: 0 auto;
   gap: 24px;
+}
+
+.section-benefits .list-item {
+  width: calc((100% - 72px) / 4);
+}
+
+.section-benefits-title {
+  margin-bottom: 8px;
 }
 
 .container-nav {
@@ -289,4 +296,14 @@ img {
   width: 1440px;
   height: 312px;
   margin: 0 auto;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
