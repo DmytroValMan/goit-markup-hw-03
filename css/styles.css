@@ -247,7 +247,7 @@ img {
   margin-bottom: 72px;
 }
 
-.container-our-portfolio {
+.container-our-portfolio .list {
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
