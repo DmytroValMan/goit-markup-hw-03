@@ -4,6 +4,25 @@ body {
   background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
 .list {
   list-style-type: none;
 }
@@ -25,6 +44,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-logo-studio {
@@ -70,6 +90,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  margin-bottom: 48px;
 }
 
 .section-button-button {
@@ -82,6 +103,11 @@ body {
   background-color: #4d5ae5;
   text-align: center;
   cursor: pointer;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  margin: 0 auto;
+  display: block;
 }
 
 .section-button-button:hover,
@@ -133,4 +159,126 @@ body {
 
 .footer-logo-studio {
   color: #f4f4fd;
+}
+
+.container-header {
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
+  padding: 24px 156px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.container-menu-nav {
+  display: flex;
+  width: 261px;
+  height: 24px;
+  justify-content: space-between;
+  margine: 0 auto;
+}
+
+.container-benefits {
+  display: flex;
+  width: 1128px;
+  height: 104px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.container-nav {
+  display: flex;
+  margin: 0 auto;
+}
+
+.container-address {
+  display: flex;
+}
+
+.section-benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.section-button {
+  width: 1440px;
+  height: 600px;
+  padding: 188px 472px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container-our-team {
+  display: flex;
+  margin: 0 auto;
+  gap: 24px;
+  height: 380px;
+  text-align: center;
+}
+
+.section-our-team {
+  padding: 120px 156px;
+  width: 1440px;
+  height: 732px;
+  margin: 0 auto;
+}
+
+.section-our-team .section-title {
+  margin-bottom: 72px;
+}
+.section-our-team img {
+  margin-bottom: 32px;
+}
+
+.section-our-team .section-our-team-title {
+  margin-bottom: 8px;
+}
+
+.section-our-portfolio {
+  padding: 120px 156px;
+}
+
+.section-our-portfolio .section-title {
+  margin-bottom: 72px;
+}
+
+.container-our-portfolio {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+  width: 1128px;
+}
+
+.container-our-portfolio li {
+  flex-basis: calc((100% - 48px) / 3);
+  height: 420px;
+}
+
+.section-our-portfolio img {
+  margin-bottom: 32px;
+}
+
+.section-our-portfolio-title {
+  margin-bottom: 8px;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  height: 72px;
+}
+
+.container-footer .link-logo {
+  margin-bottom: 16px;
+}
+
+.footer {
+  padding: 100px 156px;
+  width: 1440px;
+  height: 312px;
+  margin: 0 auto;
 }
