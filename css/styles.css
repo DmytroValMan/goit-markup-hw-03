@@ -171,7 +171,7 @@ img {
   margin: 0 auto;
 }
 
-.container-menu-nav {
+.container-list .list {
   display: flex;
   width: 261px;
   height: 24px;
@@ -179,7 +179,7 @@ img {
   margine: 0 auto;
 }
 
-.container-benefits {
+.container-benefits .list {
   display: flex;
   width: 1128px;
   height: 104px;
@@ -192,8 +192,12 @@ img {
   margin: 0 auto;
 }
 
-.container-address {
+.container-address .list {
   display: flex;
+}
+
+.link-address {
+  margin-right: 40px;
 }
 
 .section-benefits {
@@ -209,7 +213,7 @@ img {
   margin: 0 auto;
 }
 
-.container-our-team {
+.container-our-team .list {
   display: flex;
   margin: 0 auto;
   gap: 24px;
