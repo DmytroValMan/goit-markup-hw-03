@@ -92,6 +92,7 @@ img {
   text-align: center;
   color: #ffffff;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .section-button-button {
@@ -105,10 +106,11 @@ img {
   text-align: center;
   cursor: pointer;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
-  margin: 0 auto;
+
   display: block;
+  border: none;
 }
 
 .section-button-button:hover,
@@ -181,6 +183,14 @@ img {
   margin: 0 auto;
 }
 
+.section-button {
+  width: 1440px;
+  height: 600px;
+  padding: 188px 0;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .section-benefits .list {
   display: flex;
   margin: 0 auto;
@@ -215,14 +225,6 @@ img {
   padding-bottom: 120px;
 }
 
-.section-button {
-  width: 1440px;
-  height: 600px;
-  padding: 188px 472px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
 .section-our-team {
   padding: 120px 0;
 }
@@ -237,7 +239,7 @@ img {
   gap: 24px;
 }
 
-.section-our-team .list-item {
+.section-our-team .team-member {
   flex-basis: calc((100% - 72px) / 4);
 }
 
@@ -289,22 +291,20 @@ img {
   margin-bottom: 8px;
 }
 
-.container-footer {
-  display: flex;
-  flex-direction: column;
-  width: 264px;
-  height: 72px;
-}
-
 .container-footer .link-logo {
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer {
-  padding: 100px 156px;
+  padding: 100px 0;
   width: 1440px;
   height: 312px;
   margin: 0 auto;
+}
+
+.footer-text {
+  max-width: 264px;
 }
 
 .visually-hidden:not(:focus):not(:active) {
