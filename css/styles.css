@@ -93,6 +93,8 @@ img {
   color: #ffffff;
   margin-bottom: 48px;
   max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .section-button-button {
@@ -108,9 +110,10 @@ img {
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
-
   display: block;
   border: none;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .section-button-button:hover,
@@ -165,7 +168,6 @@ img {
 }
 
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -175,12 +177,13 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.header-container {
+  display: flex;
+}
+
 .header .list {
   display: flex;
-  width: 261px;
-  height: 24px;
   gap: 40px;
-  margin: 0 auto;
 }
 
 .section-button {
@@ -207,17 +210,7 @@ img {
 
 .container-nav {
   display: flex;
-  margin: 0 auto;
   align-items: center;
-}
-
-.container-address .list {
-  display: flex;
-  gap: 40px;
-}
-
-.link-address {
-  margin-right: 40px;
 }
 
 .section-benefits {
@@ -272,13 +265,12 @@ img {
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
-  row-gap: 48px;
   column-gap: 24px;
+  row-gap: 48px;
 }
 
-.section-our-portfolio .list-portfolio {
-  flex-basis: calc((100% - 48px) / 3);
-  height: 420px;
+.list-portfolio {
+  width: calc((100% - 48px) / 3);
 }
 
 .container-portfolio {
@@ -291,7 +283,7 @@ img {
   margin-bottom: 8px;
 }
 
-.container-footer .link-logo {
+.footer .link-logo {
   margin-bottom: 16px;
   display: inline-block;
 }
